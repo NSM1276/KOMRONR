@@ -370,7 +370,7 @@
     <li><a href="#contact" data-en="Contact" data-de="Kontakt">Contact</a></li>
   </ul>
   <div class="nav-right">
-    <button class="lang-btn" id="lang-btn" onclick="toggleLang()">DE</button>
+    <button class="lang-btn" id="lang-btn" onclick="toggleLang()">EN</button>
     <a class="nav-cta" href="#contact" data-en="Book / Sponsor" data-de="Buchen / Sponsor">Book / Sponsor</a>
   </div>
 </nav>
@@ -604,7 +604,7 @@
     p3: document.getElementById('about-p3').innerHTML
   };
 
-  let currentLang = localStorage.getItem('lang') || 'en';
+  let currentLang = localStorage.getItem('lang') || 'de';
   if (currentLang === 'de') toggleLang();
 
   function toggleLang() {
